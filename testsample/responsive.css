@@ -1,0 +1,612 @@
+/* ===== RESPONSIVE STYLES ===== */
+
+/* Tablet (up to 1024px) */
+@media (max-width: 1024px) {
+  .hero-inner {
+    flex-direction: column;
+  }
+
+  .hero-content {
+    flex: none;
+    width: 100%;
+  }
+
+  .hero-graphics {
+    display: none;
+  }
+
+  .dream-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .dream-images {
+    min-height: 380px;
+  }
+
+  .properties-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cards-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-inner {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section-header h2 {
+    font-size: 36px;
+  }
+}
+
+/* Small Tablet (up to 768px) */
+@media (max-width: 768px) {
+  /* Top Bar */
+  .top-bar-inner {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .top-left {
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .top-item {
+    font-size: 12px;
+  }
+
+  .top-social {
+    display: none;
+  }
+
+  /* Navbar */
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links.show {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    z-index: 100;
+    gap: 16px;
+  }
+
+  .nav-actions {
+    display: none;
+  }
+
+  .nav-actions.show {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: calc(100% + 240px);
+    left: 0;
+    right: 0;
+    padding: 0 20px 20px;
+    background: #ffffff;
+    z-index: 100;
+    gap: 12px;
+  }
+
+  .nav-inner {
+    position: relative;
+  }
+
+  .mobile-toggle {
+    display: block;
+  }
+
+  .logo-dot {
+    width: 40px;
+    height: 40px;
+  }
+
+  .logo-text {
+    font-size: 28px;
+  }
+
+  .btn-signup {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 40px 0 60px;
+  }
+
+  .hero-content h1 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .hero-desc {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .hero-image-box {
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 30px;
+  }
+
+  .house-card {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .house-card .house-img {
+    width: 60px;
+    height: 44px;
+    margin-bottom: 0;
+  }
+
+  .house-card.active .house-img {
+    width: 80px;
+    height: 56px;
+  }
+
+  .pagination {
+    margin-left: 0;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  /* Sections */
+  .section-header {
+    margin-bottom: 40px;
+  }
+
+  .section-header h2 {
+    font-size: 28px;
+  }
+
+  .section-header p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .commercial,
+  .dream-living,
+  .properties,
+  .services {
+    padding: 60px 0;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cards-row {
+    grid-template-columns: 1fr;
+  }
+
+  .guide-card {
+    padding: 36px 24px;
+  }
+
+  /* Dream Living */
+  .dream-images {
+    min-height: 320px;
+  }
+
+  .dream-img-lg {
+    width: 85%;
+    height: 320px;
+  }
+
+  .dream-img-sm {
+    width: 50%;
+    height: 240px;
+    top: 60px;
+  }
+
+  .dream-content h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .dream-desc {
+    font-size: 14px;
+    margin-bottom: 28px;
+  }
+
+  .feature-item h4 {
+    font-size: 20px;
+  }
+
+  .feature-item p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .features-list {
+    gap: 24px;
+  }
+
+  /* Properties */
+  .properties-text h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .properties-text > p {
+    font-size: 14px;
+    margin-bottom: 28px;
+  }
+
+  .prop-list li {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  .prop-house-cards {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .properties-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-img-lg {
+    grid-column: auto;
+    grid-row: auto;
+    min-height: 220px;
+  }
+
+  .gallery-img-sm {
+    min-height: 180px;
+  }
+
+  .gallery-img-sm.top {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .gallery-img-sm.bottom {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  /* Services */
+  .service-card {
+    padding: 30px 20px;
+  }
+
+  .service-card h3 {
+    font-size: 22px;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 60px 0 0;
+  }
+
+  .footer-inner {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .footer-brand p {
+    font-size: 14px;
+  }
+
+  /* Rating */
+  .rating-badge {
+    width: 100px;
+    height: 100px;
+    bottom: 16px;
+    left: 20px;
+  }
+
+  .rating-badge .star-icon {
+    font-size: 12px;
+  }
+
+  .rating-badge span {
+    font-size: 12px;
+  }
+}
+
+/* Small Phone (up to 480px) */
+@media (max-width: 480px) {
+  .container {
+    padding: 0 12px;
+  }
+
+  /* Hero */
+  .hero-content h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .hero-desc {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .btn-primary {
+    padding: 14px 24px;
+    font-size: 14px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hero-image-box {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    margin-top: 24px;
+  }
+
+  .house-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .house-card .house-img {
+    width: 56px;
+    height: 40px;
+  }
+
+  .house-card.active .house-img {
+    width: 72px;
+    height: 52px;
+  }
+
+  /* Sections */
+  .section-header h2 {
+    font-size: 24px;
+  }
+
+  .section-header p {
+    font-size: 13px;
+  }
+
+  /* Dream */
+  .dream-content h2,
+  .properties-text h2 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  .dream-images {
+    min-height: 240px;
+  }
+
+  .dream-img-lg {
+    height: 240px;
+    width: 80%;
+  }
+
+  .dream-img-sm {
+    height: 180px;
+    width: 55%;
+    top: 40px;
+  }
+
+  .rating-badge {
+    width: 80px;
+    height: 80px;
+    bottom: 12px;
+    left: 12px;
+    gap: 2px;
+  }
+
+  .rating-badge .star-icon {
+    font-size: 10px;
+  }
+
+  .rating-badge span {
+    font-size: 10px;
+  }
+
+  .feature-icon {
+    width: 44px;
+    height: 44px;
+  }
+
+  .feature-icon i {
+    font-size: 18px;
+  }
+
+  .feature-item h4 {
+    font-size: 18px;
+  }
+
+  .features-list {
+    gap: 20px;
+  }
+
+  /* Services */
+  .service-icon {
+    width: 56px;
+    height: 56px;
+  }
+
+  .service-icon i {
+    font-size: 22px;
+  }
+
+  .service-card h3 {
+    font-size: 20px;
+  }
+
+  .service-btn {
+    font-size: 14px;
+  }
+
+  /* Cards */
+  .guide-card h3 {
+    font-size: 22px;
+  }
+
+  .guide-card p {
+    font-size: 15px;
+    line-height: 26px;
+  }
+
+  .card-icon-wrapper {
+    width: 72px;
+    height: 72px;
+  }
+
+  .card-icon-bg {
+    width: 72px;
+    height: 72px;
+  }
+
+  .card-icon svg {
+    width: 32px;
+    height: 32px;
+  }
+
+  /* Properties */
+  .prop-house .prop-house-img {
+    width: 56px;
+    height: 40px;
+  }
+
+  .prop-house.active .prop-house-img {
+    width: 80px;
+    height: 56px;
+  }
+
+  /* Footer */
+  .footer-inner {
+    gap: 28px;
+  }
+
+  .footer-links h4,
+  .footer-contact h4 {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+
+  .footer-links li {
+    margin-bottom: 12px;
+  }
+
+  /* Subtitle */
+  .section-subtitle span {
+    font-size: 15px;
+  }
+}
+
+/* Very small phone (up to 360px) */
+@media (max-width: 360px) {
+  .hero-content h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .top-left {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .logo-dot {
+    width: 32px;
+    height: 32px;
+  }
+
+  .logo-text {
+    font-size: 22px;
+  }
+
+  .dream-content h2,
+  .properties-text h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .dream-img-lg {
+    width: 75%;
+    height: 200px;
+  }
+
+  .dream-img-sm {
+    height: 150px;
+    top: 30px;
+  }
+
+  .guide-card {
+    padding: 24px 16px;
+  }
+
+  .service-card {
+    padding: 24px 16px;
+  }
+}
+
+/* Landscape phone orientation */
+@media (max-height: 500px) and (orientation: landscape) {
+  .hero {
+    padding: 24px 0 40px;
+  }
+
+  .hero-inner {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .hero-content h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .hero-image-box {
+    margin-top: 20px;
+  }
+
+  .nav-links.show {
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+}
+
+/* Tablet landscape */
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+  .hero-inner {
+    flex-direction: row;
+  }
+
+  .hero-content {
+    flex: 0 0 45%;
+  }
+
+  .hero-graphics {
+    display: block;
+    flex: 1;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cards-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
