@@ -1,395 +1,358 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Reanty - Real Estate Agency</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/responsive.css" />
 </head>
 <body>
-  <div class="page">
-    <!-- Top Bar -->
-    <div class="top-bar">
-      <div class="container top-bar-inner">
-        <div class="top-left">
-          <div class="top-item">
-            <i class="fas fa-envelope"></i>
-            <span>Info@webmail.com</span>
+
+<header class="header">
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-left">
+        <span class="topbar-item">
+          <img src="../assets/images/email-icon.png" alt="Email" />
+          Info@webmail.com
+        </span>
+        <span class="topbar-item">
+          <img src="../assets/images/location-icon.png" alt="Location" />
+          547 ns tower St. anglo City, USA
+        </span>
+      </div>
+      <div class="topbar-right">
+        <a href="#"><img src="../assets/images/fb.png" alt="Facebook" /></a>
+        <a href="#"><img src="../assets/images/twitter.png" alt="Twitter" /></a>
+        <a href="#"><img src="../assets/images/ig.png" alt="Instagram" /></a>
+        <a href="#"><img src="../assets/images/ytb.png" alt="YouTube" /></a>
+        <a href="#"><img src="../assets/images/pinterest.png" alt="Pinterest" /></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="navbar">
+    <div class="container navbar-inner">
+      <a href="#" class="logo">
+        <img src="../assets/images/logo.png" alt="Reanty" />
+      </a>
+      <nav class="nav-menu">
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Feature</a>
+        <a href="#">Market</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="#" class="login-link">Log In</a>
+        <a href="#" class="signup-link">Sign Up</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-wrapper">
+    <div class="hero-content">
+      <h1>Find the best Real Estate on your country.</h1>
+      <p>With over 1 million homes for sale available on the website, Renting can match you with a house.</p>
+      <a href="#" class="btn btn-primary">
+        Start membership
+        <span class="btn-arrow">&#8250;</span>
+      </a>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-main-image">
+        <img src="../assets/images/hero/hero-main.png" alt="Hero property" />
+      </div>
+      <img src="../assets/images/hero/arrow-line.png" alt="" class="hero-arrow" />
+      <div class="hero-revenue-card">
+        <img src="../assets/images/hero/revenue-icon.png" alt="Revenue" class="revenue-icon" />
+        <h4>$7454.21</h4>
+        <p>Revenue</p>
+      </div>
+      <a href="#" class="hero-how-it-works">
+        <span>How it works</span>
+        <span class="play-circle">&#9654;</span>
+      </a>
+    </div>
+
+    <div class="hero-house-tabs">
+      <div class="house-tab active">HOUSE 1</div>
+      <div class="house-tab">HOUSE 2</div>
+      <div class="house-tab">HOUSE 3</div>
+      <div class="hero-pagination">
+        <span class="line"></span>
+        <span class="page active">1</span>
+        <span class="page">2</span>
+        <span class="page">3</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<main>
+  <section class="commercial section">
+    <div class="container">
+      <div class="section-heading center">
+        <h2>Commercial Real Estate And Office</h2>
+        <p>Discover premium properties and modern spaces built for work, investment, and lifestyle.</p>
+      </div>
+      <div class="commercial-cards">
+        <article class="info-card">
+          <h3>Buyer Guides</h3>
+          <p>Practical information for people looking to buy a new home.</p>
+        </article>
+        <article class="info-card active">
+          <h3>Renter Guides</h3>
+          <p>Useful rental guidance to help you find the right property.</p>
+        </article>
+        <article class="info-card">
+          <h3>Seller Guides</h3>
+          <p>Tips and market knowledge for selling your property effectively.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="dream section">
+    <div class="container two-col">
+      <div class="dream-image">
+        <img src="../assets/images/about/dream-space.png" alt="Dream living space" />
+      </div>
+      <div class="dream-content">
+        <h2>Dream Living Spaces Setting New Build</h2>
+        <div class="feature-list">
+          <div class="feature-item">
+            <h3>The perfect residence</h3>
+            <p>Thoughtfully designed spaces for comfort and function.</p>
           </div>
-          <div class="top-item">
-            <i class="fas fa-location-dot"></i>
-            <span>547 ns tower St. anglo City, USA</span>
+          <div class="feature-item">
+            <h3>Global architect experts</h3>
+            <p>Built with modern design standards and smart planning.</p>
           </div>
-        </div>
-        <div class="top-social">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-youtube"></i></a>
-          <a href="#"><i class="fab fa-google-plus-g"></i></a>
+          <div class="feature-item">
+            <h3>Built-in storage capable</h3>
+            <p>Efficient layouts that maximize storage and convenience.</p>
+          </div>
         </div>
       </div>
     </div>
+  </section>
 
-    <!-- Navbar -->
-    <nav class="navbar">
-      <div class="container nav-inner">
-        <div class="logo">
-          <div class="logo-dot"></div>
-          <span class="logo-text">Reanty.</span>
-        </div>
-        <ul class="nav-links">
-          <li><a href="#" class="active">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Market</a></li>
-          <li><a href="#">Feature</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
+  <section class="about section">
+    <div class="container two-col reverse">
+      <div class="about-content">
+        <span class="eyebrow">About home</span>
+        <h2>Today Sells Properties</h2>
+        <ul class="check-list">
+          <li>Find a home that fits your budget and lifestyle.</li>
+          <li>Work with trusted experts for every property step.</li>
+          <li>Explore modern listings in high-value locations.</li>
+          <li>Move into spaces designed for your future plans.</li>
         </ul>
-        <div class="nav-actions">
-          <a href="#" class="login-link">Log In</a>
-          <a href="#" class="btn-signup">Sign Up</a>
-        </div>
-        <button class="mobile-toggle" aria-label="Menu">
-          <i class="fas fa-bars"></i>
-        </button>
       </div>
-    </nav>
+      <div class="about-gallery">
+        <img src="../assets/images/about/about-1.png" alt="Property" />
+        <img src="../assets/images/about/about-2.png" alt="Property" />
+        <img src="../assets/images/about/about-3.png" alt="Property" />
+      </div>
+    </div>
+  </section>
 
-    <!-- Hero Section -->
-    <section class="hero">
-      <div class="container hero-inner">
-        <div class="hero-content">
-          <h1>Find the best Real <br>Estate on your <br>country .</h1>
-          <p class="hero-desc">With over 1 million homes for sale available on the website, Renting can match you with a house.</p>
-          <a href="#" class="btn-primary">
-            Start membership
-            <i class="fas fa-chevron-right"></i>
-          </a>
-          <div class="hero-image-box">
-            <div class="house-card active">
-              <div class="house-img" style="background: #c4c4c4;"></div>
-              <span>HOUSE 1</span>
-            </div>
-            <div class="house-card">
-              <div class="house-img" style="background: #c4c4c4;"></div>
-              <span>HOUSE 2</span>
-            </div>
-            <div class="house-card">
-              <div class="house-img" style="background: #c4c4c4;"></div>
-              <span>HOUSE 3</span>
-            </div>
-            <div class="pagination">
-              <div class="progress-bar">
-                <div class="progress-fill"></div>
-              </div>
-              <div class="page-numbers">
-                <span class="current">1</span>
-                <span class="sep">2</span>
-                <span class="sep">3</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="hero-graphics">
-          <div class="hero-image-main">
-            <div class="bg-rect"></div>
-            <div class="img-layer" style="background: #c4c4c4;"></div>
-            <div class="hero-badge">
-              <span>How it works</span>
-              <div class="play-btn">
-                <i class="fas fa-play"></i>
-              </div>
-            </div>
-          </div>
-          <div class="stats-card">
-            <div class="stats-icon">
-              <svg width="25" height="27" viewBox="0 0 25 27" fill="none">
-                <rect x="12" width="13" height="27" fill="#ff5a3c"/>
-                <rect x="6" width="13" height="27" fill="#ff5a3c"/>
-                <rect width="13" height="27" fill="#ff5a3c"/>
-              </svg>
-            </div>
-            <div class="stats-amount">$7454.21</div>
-            <div class="stats-label">Revenue</div>
-          </div>
-        </div>
+  <section class="services section section-light">
+    <div class="container">
+      <div class="section-heading center">
+        <h2>Services provide for you</h2>
+        <p>We offer property services and smart solutions tailored to your needs.</p>
       </div>
-    </section>
+      <div class="services-grid">
+        <article class="service-card"><h3>Bed Rooms</h3><p>Modern spaces for comfortable living.</p></article>
+        <article class="service-card"><h3>Swimming pool</h3><p>Enjoy premium facilities in selected properties.</p></article>
+        <article class="service-card"><h3>Copywriting content</h3><p>Professional support for your property listings.</p></article>
+        <article class="service-card"><h3>Smart Home</h3><p>Technology-driven homes for modern life.</p></article>
+        <article class="service-card"><h3>Library area</h3><p>Quiet and elegant spaces for focus and comfort.</p></article>
+        <article class="service-card"><h3>Responsive Daily</h3><p>Fast service and reliable support every day.</p></article>
+      </div>
+    </div>
+  </section>
 
-    <!-- Commercial Real Estate -->
-    <section class="commercial">
-      <div class="container">
-        <div class="section-header center">
-          <h2>Commercial real estate and office</h2>
-          <p>Work with Renting brokers who help you to get started with smart tools to.</p>
+  <section class="featured section">
+    <div class="container">
+      <div class="featured-top">
+        <div>
+          <h2>Featured Property</h2>
+          <p>Find your perfect home with our latest featured listings.</p>
         </div>
-        <div class="cards-row">
-          <div class="guide-card">
-            <div class="card-icon-wrapper">
-              <div class="card-icon-bg"></div>
-              <div class="card-icon">
-                <svg width="35" height="40" viewBox="0 0 35 40" fill="none">
-                  <path d="M2.63 0L34.75 20L2.63 40L0 37.5L29.5 20L0 2.5L2.63 0Z" fill="#071c1f"/>
-                </svg>
-              </div>
-            </div>
-            <h3>Buyer Guides</h3>
-            <p>Nurture valuable leads into customers, and turn one time.</p>
-          </div>
-          <div class="guide-card featured">
-            <div class="card-icon-wrapper">
-              <div class="card-icon-bg white"></div>
-              <div class="card-icon">
-                <svg width="40" height="34" viewBox="0 0 40 34" fill="none">
-                  <path d="M0 3.22L40 0V33.57H0V3.22Z" fill="white"/>
-                </svg>
-              </div>
-            </div>
-            <h3>Renter Guides</h3>
-            <p>Build brand awareness on the top social media networks.</p>
-          </div>
-          <div class="guide-card">
-            <div class="card-icon-wrapper">
-              <div class="card-icon-bg"></div>
-              <div class="card-icon">
-                <svg width="38" height="40" viewBox="0 0 38 40" fill="none">
-                  <path d="M1.25 0L38.75 40H1.25V0Z" fill="#071c1f"/>
-                </svg>
-              </div>
-            </div>
-            <h3>Seller Guides</h3>
-            <p>Get professionally-written content that attracts qualified.</p>
-          </div>
+        <div class="featured-tabs">
+          <button class="tab active">Apartment</button>
+          <button class="tab">Villa</button>
+          <button class="tab">Land</button>
         </div>
       </div>
-    </section>
+      <div class="property-grid">
+        <article class="property-card">
+          <img src="../assets/images/properties/property-1.png" alt="Property 1" />
+          <div class="property-body">
+            <h3>The Stow Apartment</h3>
+            <p>$2,32,000</p>
+          </div>
+        </article>
+        <article class="property-card">
+          <img src="../assets/images/properties/property-2.png" alt="Property 2" />
+          <div class="property-body">
+            <h3>The Stow Apartment</h3>
+            <p>$2,32,000</p>
+          </div>
+        </article>
+        <article class="property-card">
+          <img src="../assets/images/properties/property-3.png" alt="Property 3" />
+          <div class="property-body">
+            <h3>The Stow Apartment</h3>
+            <p>$2,32,000</p>
+          </div>
+        </article>
+      </div>
+      <div class="center mt-32">
+        <a href="#" class="btn btn-outline">View Property</a>
+      </div>
+    </div>
+  </section>
 
-    <!-- Dream Living Space -->
-    <section class="dream-living">
-      <div class="container">
-        <div class="dream-grid">
-          <div class="dream-images">
-            <div class="dream-img-lg" style="background: #c4c4c4;"></div>
-            <div class="dream-img-sm" style="background: #c4c4c4;"></div>
-            <div class="rating-badge">
-              <div class="star-icon">&#9733;</div>
-              <div class="star-icon">&#9733;</div>
-              <div class="star-icon">&#9733;</div>
-              <div class="star-icon">&#9733;</div>
-              <div class="star-icon">&#9733;</div>
-              <span>5 Star Rating</span>
-            </div>
-          </div>
-          <div class="dream-content">
-            <div class="section-subtitle">
-              <i class="fas fa-home"></i>
-              <span>About home</span>
-            </div>
-            <h2>Dream living Spaces<br>setting New Build</h2>
-            <p class="dream-desc">SeaWire Web is a wireframe kit that has more than 15 popular categories and more than 200 screens</p>
-            <div class="features-list">
-              <div class="feature-item">
-                <div class="feature-icon">
-                  <i class="fas fa-home"></i>
-                </div>
-                <div>
-                  <h4>The perfect Residencye</h4>
-                  <p>Take a deep dive and browse origin neighborhood photos.</p>
-                </div>
-              </div>
-              <div class="feature-item">
-                <div class="feature-icon">
-                  <i class="fas fa-globe-americas"></i>
-                </div>
-                <div>
-                  <h4>Global Architect Experts</h4>
-                  <p>Take a deep dive and browse origin neighborhood photos.</p>
-                </div>
-              </div>
-              <div class="feature-item">
-                <div class="feature-icon">
-                  <i class="fas fa-building"></i>
-                </div>
-                <div>
-                  <h4>Built-in a storage capable</h4>
-                  <p>Take a deep dive and browse origin neighborhood photos.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+  <section class="unit-banner">
+    <div class="container unit-banner-inner">
+      <div class="unit-badge">Unit no. 9A</div>
+      <div class="unit-card">
+        <span>$4,000</span>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Today Sells Properties -->
-    <section class="properties">
-      <div class="container">
-        <div class="section-subtitle">
-          <i class="fas fa-home"></i>
-          <span>About home</span>
+  <section class="testimonial section">
+    <div class="container">
+      <div class="section-heading center">
+        <h2>What our customers are saying</h2>
+        <p>Hear what clients say about our service and properties.</p>
+      </div>
+      <div class="testimonial-wrapper">
+        <div class="testimonial-image">
+          <img src="../assets/images/testimonial/person.png" alt="Customer" />
         </div>
-        <div class="properties-grid">
-          <div class="properties-text">
-            <h2>Today sells<br>properties</h2>
-            <p>SeaWire Web is a wireframe kit that has more than 15 popular categories and more than 200 screens</p>
-            <ul class="prop-list">
-              <li><i class="fas fa-square"></i> Our best boat Tour is just for you</li>
-              <li><i class="fas fa-square"></i> Live Music concert at Newyork</li>
-              <li><i class="fas fa-square"></i> Our best boat Tour is just for you</li>
-              <li><i class="fas fa-square"></i> Live Music concert at Newyork</li>
-              <li><i class="fas fa-square"></i> Live Music concert at Newyork</li>
-            </ul>
-            <div class="prop-pagination">
-              <div class="prop-house-cards">
-                <div class="prop-house active">
-                  <div class="prop-house-img" style="background: #c4c4c4;"></div>
-                  <span>HOUSE 1</span>
-                </div>
-                <div class="prop-house">
-                  <div class="prop-house-img" style="background: #c4c4c4;"></div>
-                  <span>HOUSE 2</span>
-                </div>
-                <div class="prop-house">
-                  <div class="prop-house-img" style="background: #c4c4c4;"></div>
-                  <span>HOUSE 3</span>
-                </div>
-              </div>
-              <div class="pagination right">
-                <div class="progress-bar">
-                  <div class="progress-fill"></div>
-                </div>
-                <div class="page-numbers">
-                  <span class="current">1</span>
-                  <span class="sep">2</span>
-                  <span class="sep">3</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="properties-gallery">
-            <div class="gallery-img-lg" style="background: #c4c4c4;"></div>
-            <div class="gallery-img-sm top" style="background: #c4c4c4;"></div>
-            <div class="gallery-img-sm bottom" style="background: #c4c4c4;"></div>
-          </div>
+        <div class="testimonial-content">
+          <p class="quote">We make sure you have a fine distance with the sickness. We make you never lose hope. We make sure you have all the sickness.</p>
+          <h3>Yunus Seyhan</h3>
+          <span>Property customer</span>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Services -->
-    <section class="services">
-      <div class="container">
-        <div class="section-header center">
-          <h2>Services provide for you</h2>
-          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
-        </div>
-        <div class="services-grid">
-          <div class="service-card">
-            <div class="service-icon">
-              <i class="fas fa-bed"></i>
-            </div>
-            <h3>Bed Rooms</h3>
-            <p>Desktop publishing software like aldus page maker including</p>
-            <a href="#" class="service-btn">
-              Learn more
-              <i class="fas fa-chevron-right"></i>
-            </a>
-          </div>
-          <div class="service-card">
-            <div class="service-icon">
-              <i class="fas fa-swimming-pool"></i>
-            </div>
-            <h3>Swimming pool</h3>
-            <p>React creative agency amet, consec tetur adipiscing elit.</p>
-            <a href="#" class="service-btn">
-              Learn more
-              <i class="fas fa-chevron-right"></i>
-            </a>
-          </div>
-          <div class="service-card">
-            <div class="service-icon">
-              <i class="fas fa-copy"></i>
-            </div>
-            <h3>Copywriting content</h3>
-            <p>The standard chunk of used since the 1500s is reproduced</p>
-            <a href="#" class="service-btn">
-              Learn more
-              <i class="fas fa-chevron-right"></i>
-            </a>
-          </div>
-          <div class="service-card">
-            <div class="service-icon">
-              <i class="fas fa-microchip"></i>
-            </div>
-            <h3>Smart Home</h3>
-            <p>The standard chunk of used since the 1500s is reproduced</p>
-            <a href="#" class="service-btn">
-              Learn more
-              <i class="fas fa-chevron-right"></i>
-            </a>
-          </div>
-        </div>
+  <section class="renting section">
+    <div class="container">
+      <div class="section-heading center">
+        <h2>We build more projects successful</h2>
       </div>
-    </section>
+      <div class="city-cards">
+        <article class="city-card"><h3>San Francisco, California</h3><a href="#">See more</a></article>
+        <article class="city-card"><h3>Washington DC</h3><a href="#">See more</a></article>
+        <article class="city-card"><h3>Chicago</h3><a href="#">See more</a></article>
+      </div>
+      <form class="subscribe-form">
+        <input type="email" placeholder="Enter your email address" />
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container footer-inner">
-        <div class="footer-brand">
-          <div class="logo">
-            <div class="logo-dot"></div>
-            <span class="logo-text white">Reanty.</span>
+  <section class="blog section">
+    <div class="container">
+      <div class="section-heading center">
+        <h2>From our blog</h2>
+        <p>Find your suitable house every day with our useful articles.</p>
+      </div>
+      <div class="blog-grid">
+        <article class="blog-card">
+          <img src="../assets/images/blog/blog-1.png" alt="Blog 1" />
+          <div class="blog-body">
+            <h3>How to rent a home very easy?</h3>
+            <p>Useful property tips and practical steps for first-time renters.</p>
           </div>
-          <p>With over 1 million homes for sale available on the website, Renting can match you with a house.</p>
-          <div class="footer-social">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
+        </article>
+        <article class="blog-card">
+          <img src="../assets/images/blog/blog-2.png" alt="Blog 2" />
+          <div class="blog-body">
+            <h3>How to rent a home very easy?</h3>
+            <p>Helpful guidance for choosing the right property and location.</p>
           </div>
-        </div>
-        <div class="footer-links">
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Market</a></li>
-            <li><a href="#">Feature</a></li>
-            <li><a href="#">Services</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h4>Support</h4>
-          <ul>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Use</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer-contact">
-          <h4>Contact Us</h4>
-          <p><i class="fas fa-envelope"></i> Info@webmail.com</p>
-          <p><i class="fas fa-location-dot"></i> 547 ns tower St. anglo City, USA</p>
+        </article>
+        <article class="blog-card">
+          <img src="../assets/images/blog/blog-3.png" alt="Blog 3" />
+          <div class="blog-body">
+            <h3>How to rent a home very easy?</h3>
+            <p>Smart ideas to compare listings and make better housing decisions.</p>
+          </div>
+        </article>
+      </div>
+      <div class="center mt-32">
+        <a href="#" class="btn btn-outline">Read all</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact section">
+    <div class="container contact-wrapper">
+      <div class="contact-info">
+        <span class="eyebrow">Contact with us</span>
+        <h2>Looking For To Buy A Property?</h2>
+        <ul class="check-list">
+          <li>Browse our property listing and find your best dream home.</li>
+          <li>Advice and support from the best property team.</li>
+          <li>Legal guidance and flexible installment options.</li>
+        </ul>
+        <div class="contact-image">
+          <img src="../assets/images/contact/contact-house.png" alt="Contact property" />
         </div>
       </div>
-      <div class="footer-bottom">
-        <div class="container">
-          <p>&copy; 2025 Reanty. All Rights Reserved.</p>
-        </div>
+      <div class="contact-form-box">
+        <h3>Contact Us</h3>
+        <form class="contact-form">
+          <input type="text" placeholder="Enter your name" />
+          <input type="email" placeholder="Enter your email" />
+          <textarea placeholder="Enter your message"></textarea>
+          <button type="submit" class="btn btn-primary">Send</button>
+        </form>
       </div>
-    </footer>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <h3>Realty.</h3>
+      <p>We build homes and future spaces for modern living.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <a href="#">About</a>
+      <a href="#">Careers</a>
+      <a href="#">Blog</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="#">FAQ</a>
+      <a href="#">Support</a>
+      <a href="#">Privacy</a>
+    </div>
+    <div class="footer-col">
+      <h4>Newsletter</h4>
+      <p>Stay updated with our latest property news.</p>
+    </div>
   </div>
+</footer>
 
-  <script>
-    document.querySelector('.mobile-toggle').addEventListener('click', function() {
-      document.querySelector('.nav-links').classList.toggle('show');
-      document.querySelector('.nav-actions').classList.toggle('show');
-    });
-  </script>
 </body>
 </html>
