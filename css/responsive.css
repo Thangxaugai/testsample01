@@ -23,21 +23,46 @@
 
   .navbar-inner {
     flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px 0;
+    justify-content: space-between;
+    padding: 18px 0;
+    position: relative;
+  }
+
+  .menu-toggle {
+    display: flex !important;
   }
 
   .nav-menu {
-    order: 3;
+    display: none;
+    flex-direction: column;
     width: 100%;
-    justify-content: center;
+    background: #fff;
+    padding: 20px 0;
+    gap: 16px;
+    order: 3;
     margin-left: 0;
-    flex-wrap: wrap;
-    gap: 20px;
+  }
+
+  .nav-menu.open {
+    display: flex;
   }
 
   .nav-actions {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+    order: 4;
     margin-left: 0;
+    padding-bottom: 16px;
+  }
+
+  .nav-actions.open {
+    display: flex;
+  }
+
+  .nav-actions .signup-link {
+    width: 100%;
   }
 
   .hero {
